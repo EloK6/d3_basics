@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.sphere {
+  fill: greenyellow;
+}
+
+.country {
+  fill: rgb(0, 238, 255);
+  stroke: black;
+  stroke-opacity: 0.2;
+}
+
+.country:hover {
+  fill: blue;
+}
