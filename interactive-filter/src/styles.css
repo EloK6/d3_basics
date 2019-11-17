@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.sphere {
+  fill: rgb(0, 247, 255);
+}
+
+.country {
+  stroke: black;
+  stroke-width: 0.1px;
+}
+
+.country:hover {
+  fill: blue;
+}
+
+.country.highlighted {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.tick {
+  cursor: pointer;
+}
+
+.tick text {
+  font-size: 0.8em;
+  fill: #635f5d;
+  font-family: sans-serif;
+}
+
+.tick circle {
+  stroke: grey;
+  stroke-opacity: 0.5;
+}
